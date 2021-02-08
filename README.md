@@ -12,7 +12,7 @@ This is the repository for the paper:
 |:--:|
 | By exlcusively learning to predict the trajectory of the ball, <code>baller2vec</code> was able to infer idiosyncratic player attributes. |
 
-| <img src="similar_players.jpg" width="600"> |
+| <img src="similar_players.jpg" width="400"> |
 |:--:|
 | Further, nearest neighbors in <code>baller2vec</code>'s embedding space are plausible doppelgängers. Credit for the images (clockwise from the top left): [Erik Drost](https://en.wikipedia.org/wiki/Russell_Westbrook#/media/File:Russell_Westbrook_shoots_against_Cavs_%28cropped%29.jpg), [Keith Allison](https://en.wikipedia.org/wiki/Pau_Gasol#/media/File:Pau_Gasol_boxout.jpg), [Jose Garcia](https://en.wikipedia.org/wiki/Kawhi_Leonard#/media/File:Kawhi_Leonard_Dunk_cropped.jpg), [Keith Allison](https://en.wikipedia.org/wiki/Derrick_Rose#/media/File:Derrick_Rose_2.jpg), [Verse Photography](https://en.wikipedia.org/wiki/Marc_Gasol#/media/File:Marc_Gasol_20131118_Clippers_v_Grizzles_%28cropped%29.jpg), and [Joe Glorioso](https://en.wikipedia.org/wiki/Jimmy_Butler#/media/File:Jimmy_Butler_%28cropped%29.jpg). |
 
