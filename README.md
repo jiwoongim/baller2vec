@@ -6,7 +6,7 @@ This is the repository for the paper:
 
 | <img src="model_and_mask.svg"> |
 |:--:|
-| Left: the input for <code>baller2vec</code> at each time step *t* is an *unordered* set of feature vectors containing information about the identities and locations of NBA players on the court. Right: <code>baller2vec</code> generalizes the standard Transformer to the multi-entity setting by employing a novel self-attention mask *tensor*. The mask is then reshaped into a matrix for compatibility with standard Transformer implementations. |
+| **Left**: the input for <code>baller2vec</code> at each time step *t* is an *unordered* set of feature vectors containing information about the identities and locations of NBA players on the court. **Right**: <code>baller2vec</code> generalizes the standard Transformer to the multi-entity setting by employing a novel self-attention mask *tensor*. The mask is then reshaped into a matrix for compatibility with standard Transformer implementations. |
 
 | <img src="player_embeddings.png" width="800"> |
 |:--:|
