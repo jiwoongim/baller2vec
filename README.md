@@ -6,7 +6,7 @@ This is the repository for the paper:
 
 | <img src="model_and_mask.svg"> |
 |:--:|
-| **Left**: the input for <code>baller2vec</code> at each time step *t* is an *unordered* set of feature vectors containing information about the identities and locations of NBA players on the court. **Right**: <code>baller2vec</code> generalizes the standard Transformer to the multi-entity setting by employing a novel self-attention mask *tensor*. The mask is then reshaped into a matrix for compatibility with standard Transformer implementations. |
+| **Left**: the input for <code>baller2vec</code> at each time step *t* is an *unordered* set of feature vectors containing information about the identities and locations of NBA players on the court. **Right**: <code>baller2vec</code> generalizes the standard Transformer to the multi-entity setting by employing a novel self-attention mask *tensor*. The mask is then reshaped into a matrix for compatibility with typical Transformer implementations. |
 
 | <img src="player_embeddings.png" width="800"> |
 |:--:|
@@ -14,7 +14,7 @@ This is the repository for the paper:
 
 | <img src="similar_players.jpg" width="400"> |
 |:--:|
-| Further, nearest neighbors in <code>baller2vec</code>'s embedding space are plausible doppelgängers. Credit for the images (clockwise from the top left): [Erik Drost](https://en.wikipedia.org/wiki/Russell_Westbrook#/media/File:Russell_Westbrook_shoots_against_Cavs_%28cropped%29.jpg), [Keith Allison](https://en.wikipedia.org/wiki/Pau_Gasol#/media/File:Pau_Gasol_boxout.jpg), [Jose Garcia](https://en.wikipedia.org/wiki/Kawhi_Leonard#/media/File:Kawhi_Leonard_Dunk_cropped.jpg), [Keith Allison](https://en.wikipedia.org/wiki/Derrick_Rose#/media/File:Derrick_Rose_2.jpg), [Verse Photography](https://en.wikipedia.org/wiki/Marc_Gasol#/media/File:Marc_Gasol_20131118_Clippers_v_Grizzles_%28cropped%29.jpg), and [Joe Glorioso](https://en.wikipedia.org/wiki/Jimmy_Butler#/media/File:Jimmy_Butler_%28cropped%29.jpg). |
+| Further, nearest neighbors in <code>baller2vec</code>'s embedding space are plausible doppelgängers. Credit for the images: [Erik Drost](https://en.wikipedia.org/wiki/Russell_Westbrook#/media/File:Russell_Westbrook_shoots_against_Cavs_%28cropped%29.jpg), [Keith Allison](https://en.wikipedia.org/wiki/Pau_Gasol#/media/File:Pau_Gasol_boxout.jpg), [Jose Garcia](https://en.wikipedia.org/wiki/Kawhi_Leonard#/media/File:Kawhi_Leonard_Dunk_cropped.jpg), [Keith Allison](https://en.wikipedia.org/wiki/Derrick_Rose#/media/File:Derrick_Rose_2.jpg), [Verse Photography](https://en.wikipedia.org/wiki/Marc_Gasol#/media/File:Marc_Gasol_20131118_Clippers_v_Grizzles_%28cropped%29.jpg), and [Joe Glorioso](https://en.wikipedia.org/wiki/Jimmy_Butler#/media/File:Jimmy_Butler_%28cropped%29.jpg). |
 
 
 | <img src="pass.gif" width="400"> |
